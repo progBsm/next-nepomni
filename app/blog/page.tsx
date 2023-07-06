@@ -4,7 +4,7 @@ import Link from "next/link"
 
 async function getData() {
 
-  const response = await fetch('https://jsonplaceholder.typicode.com/postskjj', {
+  const response = await fetch('https://jsonplaceholder.typicode.com/posts', {
 
   next: {
     revalidate: 60,
